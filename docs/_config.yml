@@ -1,0 +1,96 @@
+# docs/_config.yml
+remote_theme: just-the-docs/just-the-docs
+title: GitOpsIQ Documentation
+description: Documentation for GitOpsIQ solutions
+baseurl: "/support" # the subpath of your site
+url: "https://docs.gitopsiq.com" # your domain
+
+# Navigation Configuration
+nav_external_links:
+  - title: GitOpsIQ Marketplace
+    url: https://azuremarketplace.microsoft.com/...
+    hide_icon: false
+  - title: GitHub Repository
+    url: https://github.com/gitopsiq/support
+    hide_icon: false
+
+# Search Configuration
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Heading Configuration
+heading_anchors: true
+
+# Auxiliary Links (Top right corner)
+aux_links:
+  "GitOpsIQ on GitHub":
+    - "//github.com/gitopsiq/support"
+aux_links_new_tab: true
+
+# Footer Configuration
+footer_content: 'Copyright &copy; 2024 GitOpsIQ. Distributed under the <a href="https://github.com/gitopsiq/support/tree/main/LICENSE">MIT license.</a>'
+
+# Color scheme
+color_scheme: dark
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO Configuration
+twitter:
+  username: GitOpsIQ
+  card: summary
+
+social:
+  name: GitOpsIQ
+  links:
+    - https://twitter.com/GitOpsIQ
+    - https://github.com/gitopsiq
+
+# Google Analytics
+ga_tracking: UA-XXXXXXXX-X
+ga_tracking_anonymize_ip: true
+
+# Compression
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+# Collections (for versioned docs)
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
+
+# Just-the-docs specific
+# Organize your pages by folders
+just_the_docs:
+  collections:
+    docs:
+      name: Documentation
+
+# Define order of navigation
+nav_sort: case_sensitive
+
+# Enable copy code buttons
+enable_copy_code_button: true
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Maximum sidebar depth
+max_toc_levels: 3
