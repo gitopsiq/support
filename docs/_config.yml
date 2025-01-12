@@ -1,6 +1,6 @@
 # docs/_config.yml
 # Site settings
-title: GitOpsIQ Documentation
+title: GitOpsIQ
 description: Official documentation for GitOpsIQ solutions
 baseurl: "/support" # Must match your repository name
 url: "https://gitopsiq.github.io" # Your GitHub Pages URL
@@ -38,7 +38,7 @@ aux_links:
 aux_links_new_tab: true
 
 # Footer Configuration
-footer_content: 'Copyright &copy; 2024 GitOpsIQ. Distributed under the <a href="https://github.com/gitopsiq/support/blob/main/LICENSE">MIT license.</a>'
+footer_content: 'Copyright &copy; 2025 GitOpsIQ. Distributed under the <a href="https://github.com/gitopsiq/support/blob/main/LICENSE">MIT license.</a>'
 
 # Color scheme
 color_scheme: dark
