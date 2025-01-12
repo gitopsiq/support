@@ -109,3 +109,6 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
+# Logo configuration
+logo: "/assets/images/logo-v4.png"
