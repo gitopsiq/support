@@ -20,13 +20,13 @@ nav_external_links:
 # Search Configuration
 search_enabled: true
 search:
-  heading_level: 2
+  heading_level: 3
   previews: 3
   preview_words_before: 5
   preview_words_after: 10
   tokenizer_separator: /[\s/]+/
   rel_url: true
-  button: false
+  button: true
 
 # Heading Configuration
 heading_anchors: true
@@ -34,11 +34,11 @@ heading_anchors: true
 # Auxiliary Links (Top right corner)
 aux_links:
   "GitOpsIQ on GitHub":
-    - "//github.com/gitopsiq/support"
+    - "https://github.com/gitopsiq"
 aux_links_new_tab: true
 
 # Footer Configuration
-footer_content: 'Copyright &copy; 2024 GitOpsIQ. Distributed under the <a href="https://github.com/gitopsiq/support/tree/main/LICENSE">MIT license.</a>'
+footer_content: 'Copyright &copy; 2024 GitOpsIQ. Distributed under the <a href="https://github.com/gitopsiq/support/blob/main/LICENSE">MIT license.</a>'
 
 # Color scheme
 color_scheme: dark
