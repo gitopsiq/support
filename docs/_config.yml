@@ -1,9 +1,12 @@
 # docs/_config.yml
-remote_theme: just-the-docs/just-the-docs
+# Site settings
 title: GitOpsIQ Documentation
-description: Documentation for GitOpsIQ solutions
-baseurl: "/support" # the subpath of your site
-url: "https://docs.gitopsiq.com" # your domain
+description: Official documentation for GitOpsIQ solutions
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://docs.gitopsiq.com" # your site's domain
+
+# Enable copy code buttons
+enable_copy_code_button: true
 
 # Navigation Configuration
 nav_external_links:
@@ -85,12 +88,14 @@ just_the_docs:
 # Define order of navigation
 nav_sort: case_sensitive
 
-# Enable copy code buttons
-enable_copy_code_button: true
-
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
 
 # Maximum sidebar depth
 max_toc_levels: 3
+
+# Theme configuration
+theme: just-the-docs
+# OR if using remote theme:
+# remote_theme: just-the-docs/just-the-docs

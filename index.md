@@ -1,64 +1,35 @@
-# GitOpsIQ Support
+---
+layout: home
+title: Home
+nav_order: 1
+permalink: /
+---
 
-Welcome to the official support repository for GitOpsIQ solutions. This repository is used to track issues, feature requests, and provide documentation for all GitOpsIQ marketplace offerings.
+# GitOpsIQ Documentation
+
+Welcome to the official documentation for GitOpsIQ solutions. Here you'll find comprehensive guides and documentation to help you get started with all of our products.
 
 ## Our Solutions
 
-### GitHub OIDC Basic
-Automated OIDC federation setup between GitHub Actions and Azure.
-- [Documentation](./docs/github-oidc-basic/README.md)
-- [Issue Template](./github/ISSUE_TEMPLATE/github-oidc-basic.md)
-- [Azure Marketplace Link](https://azuremarketplace.microsoft.com/...)
+### [GitHub OIDC Basic](github-oidc-basic/)
+
+Automate the setup of OpenID Connect (OIDC) federation between GitHub Actions and Azure.
+
+- Quick setup
+- Security best practices
+- Zero credential storage
+- Automated configuration
 
 ## Getting Support
 
-1. **Check Documentation First**
-   - Browse our [documentation](./docs)
-   - Review [common issues](./docs/common-issues.md)
-   - Check [FAQ](./docs/faq.md)
+Need help? Check out our:
 
-2. **Search Existing Issues**
-   - Search open and closed issues before creating a new one
-   - Use labels to filter by solution
+- [Common Issues](common-issues/)
+- [FAQ](faq/)
+- [GitHub Issues](https://github.com/gitopsiq/support/issues)
 
-3. **Create New Issue**
-   - Use appropriate issue template
-   - Provide all requested information
-   - Follow our [issue guidelines](./docs/issue-guidelines.md)
+## Quick Links
 
-## Issue Labels
-
-- `github-oidc-basic` - Issues related to GitHub OIDC Basic solution
-- `bug` - Something isn't working as expected
-- `enhancement` - Feature requests
-- `documentation` - Documentation improvements
-- `question` - Further information is requested
-- `security` - Security related issues
-
-## Support SLA
-
-- Issues are tracked and triaged within 1 business day
-- Initial response within 2 business days
-- Resolution time varies based on issue complexity
-
-## Security
-
-- For security issues, please follow our [security policy](./SECURITY.md)
-- Do not post sensitive information in public issues
-
-## Contributing
-
-We welcome contributions to our documentation:
-1. Fork the repository
-2. Create your feature branch
-3. Submit a pull request
-
-## License
-
-Documentation and examples are licensed under [MIT License](./LICENSE)
-
-## Contact
-
-- Website: https://gitopsiq.com
-- Email: support@gitopsiq.com
-- Twitter: [@GitOpsIQ](https://twitter.com/GitOpsIQ)
+- [Getting Started with GitHub OIDC Basic](github-oidc-basic/getting-started/)
+- [Troubleshooting](github-oidc-basic/troubleshooting/)
+- [GitHub App Permissions](github-oidc-basic/github-app-permissions/)
