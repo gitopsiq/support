@@ -2,8 +2,8 @@
 # Site settings
 title: GitOpsIQ Documentation
 description: Official documentation for GitOpsIQ solutions
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://docs.gitopsiq.com" # your site's domain
+baseurl: "/support" # Must match your repository name
+url: "https://gitopsiq.github.io" # Your GitHub Pages URL
 
 # Enable copy code buttons
 enable_copy_code_button: true
@@ -98,4 +98,4 @@ max_toc_levels: 3
 # Theme configuration
 theme: just-the-docs
 # OR if using remote theme:
-# remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs
