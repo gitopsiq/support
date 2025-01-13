@@ -1,5 +1,24 @@
 .site-logo {
-  width: 350px;
-  height: 350px;
-  padding: 10px;
+  width: auto;
+  height: 50px;
+  padding: 5px 0;
+  margin-right: 15px;
+}
+
+.site-title {
+  padding-left: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.site-header {
+  height: 80px;
+  max-height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.main-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
