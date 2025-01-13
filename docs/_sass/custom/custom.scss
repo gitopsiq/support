@@ -1,32 +1,32 @@
 .site-logo {
-  width: 100px;
-  height: 50px;
-  padding: 5px 0;
-  margin-right: 15px;
+  width: 150px;
+  height: 75px;
+  padding: 10px;
+  margin-right: 0;
   object-fit: contain;
   display: flex;
   align-self: center;
 }
 
 .site-title {
-  padding-left: 0;
-  font-size: 24px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
+  display: none;
 }
 
 .site-header {
-  height: 60px;
-  max-height: 60px;
+  height: 95px;
+  max-height: 95px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  background-color: #1c1e21;
 }
 
 .main-header {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 10px;
   display: flex;
   align-items: center;
+}
+
+.search {
+  margin-top: 5px;
 }
