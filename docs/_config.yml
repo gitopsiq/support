@@ -111,4 +111,4 @@ kramdown:
   syntax_highlighter: rouge
 
 # Logo configuration
-logo: "/assets/images/logo-v4-transparent-100x50.png"
+logo: "assets/images/logo-v4-transparent-100x50.png"
