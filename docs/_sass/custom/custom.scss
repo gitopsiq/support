@@ -1,8 +1,9 @@
 .site-logo {
-  width: auto;
+  width: 100px;
   height: 50px;
   padding: 5px 0;
   margin-right: 15px;
+  object-fit: contain;
 }
 
 .site-title {
@@ -12,13 +13,13 @@
 }
 
 .site-header {
-  height: 80px;
-  max-height: 80px;
+  height: 60px;
+  max-height: 60px;
   display: flex;
   align-items: center;
 }
 
 .main-header {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
