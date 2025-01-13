@@ -3,7 +3,7 @@
 title: GitOpsIQ
 description: Official documentation for GitOpsIQ solutions
 baseurl: "/support" # Must match your repository name
-url: "https://gitopsiq.github.io" # Your GitHub Pages URL
+url: "https://docs.gitopsiq.com" # Your GitHub Pages URL
 
 # Enable copy code buttons
 enable_copy_code_button: true
@@ -111,4 +111,4 @@ kramdown:
   syntax_highlighter: rouge
 
 # Logo configuration
-logo: "/assets/images/logo-v3-white-text-transsparent-croped.png"
+# logo: "/assets/images/logo-v3-white-text-transsparent-croped.png"
